@@ -4,24 +4,8 @@ ikandou.douban
 
 多谢 `satoru <http://www.douban.com/people/satoru/>`_ 童鞋提供的脚本，我做了稍微的样式修改，你现在可以在豆瓣读书的页面随时看到这本书是否在 `万卷书 <http://ikandou.com/book>`_ 上有对应的电子书。
 
-如何贡献源代码到这个插件
-----------------
-如果你有建议对这个插件进行改进，可以使用github 的 pull request，这儿是一个如何使用pull request的简单流程：
-
-* Fork on GitHub (click Fork button)
-* Clone to computer ($ git clone git@github.com:you/ikandou.douban.git)
-* Don't forget to cd into your repo: ($ cd ikandou.douban/)
-* Set up remote upstream ($ git remote add upstream git@github.com:fengli/ikandou.douban.git)
-* Create a branch for new issue ($ git checkout -b 100-new-feature, if you don't have a bug report no worries just skip the number)
-* Develop on issue branch. [Time passes, the main Diaspora repository accumulates new commits]
-* Commit changes to issue branch. ($ git add . ; git commit -m 'commit message')
-* Fetch upstream ($ git fetch upstream)
-* Update local master ($ git checkout master; git pull upstream master)
-* Repeat steps 5-8 till dev is complete
-* Rebase issue branch ($ git checkout 100-new-feature; git rebase master)
-* Push branch to GitHub ($ git push origin 100-new-feature)
-* Issue pull request (Click Pull Request button)
-
+如何使用这个插件
+==================
 
 下载和安装插件
 -------------
@@ -44,3 +28,22 @@ ikandou.douban
 ----------------
 
 猛击豆瓣读书的 `这个页面 <http://book.douban.com/subject/1146267/>`_  ,如果显示跟上图一样，说明安装成功了。有任何问题或者建议，发送邮件到okidogiii@gmail.com 。
+
+如何贡献源代码到这个插件
+====================
+如果你有建议对这个插件进行改进，可以使用github 的 pull request，这儿是一个如何使用pull request的简单流程：
+
+* Fork on GitHub (click Fork button)
+* Clone to computer ($ git clone git@github.com:you/ikandou.douban.git)
+* Don't forget to cd into your repo: ($ cd ikandou.douban/)
+* Set up remote upstream ($ git remote add upstream git@github.com:fengli/ikandou.douban.git)
+* Create a branch for new issue ($ git checkout -b 100-new-feature, if you don't have a bug report no worries just skip the number)
+* Develop on issue branch. [Time passes, the main Diaspora repository accumulates new commits]
+* Commit changes to issue branch. ($ git add . ; git commit -m 'commit message')
+* Fetch upstream ($ git fetch upstream)
+* Update local master ($ git checkout master; git pull upstream master)
+* Repeat steps 5-8 till dev is complete
+* Rebase issue branch ($ git checkout 100-new-feature; git rebase master)
+* Push branch to GitHub ($ git push origin 100-new-feature)
+* Issue pull request (Click Pull Request button)
+
