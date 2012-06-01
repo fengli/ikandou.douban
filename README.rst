@@ -6,7 +6,7 @@ ikandou.douban
 
 如何贡献源代码到这个插件
 ----------------
-如果你有建议对这个插件进行改进，可以使用github 的 pull request，具体可以参见 `这篇教程 <https://github.com/SM-froyo/sm_android/wiki/Tutorial:-how-to-collaborate>`_ ，当然也可以在issues页面提出你的建议。这儿是一个如何使用pull request的简单流程：
+如果你有建议对这个插件进行改进，可以使用github 的 pull request，这儿是一个如何使用pull request的简单流程：
 
 * Fork on GitHub (click Fork button)
 * Clone to computer ($ git clone git@github.com:you/ikandou.douban.git)
