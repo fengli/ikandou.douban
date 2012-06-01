@@ -2,7 +2,7 @@ ikandou.douban
 ==============
 这是爱看豆万卷书在Chrome或者Firefox的greasemonkey脚本源代码。在豆瓣读书旁自动显示这本书是否在爱看豆万卷书有相应的电子书，并提供下载链接。
 
-多谢 `satoru <http://www.douban.com/people/satoru/>`_ 童鞋提供的脚本，我做了稍微的样式修改，你现在可以在豆瓣读书的页面随时看到这本书是否在 `万卷书 <http://ikandou.com/book>`_ 上有对应的电子书。
+多谢 `satoru <https://github.com/suzaku>`_ 童鞋提供的脚本，我做了稍微的样式修改，你现在可以在豆瓣读书的页面随时看到这本书是否在 `万卷书 <http://ikandou.com/book>`_ 上有对应的电子书。
 
 如何使用这个插件
 ==================
@@ -38,7 +38,7 @@ ikandou.douban
 * Don't forget to cd into your repo: ($ cd ikandou.douban/)
 * Set up remote upstream ($ git remote add upstream git@github.com:fengli/ikandou.douban.git)
 * Create a branch for new issue ($ git checkout -b 100-new-feature, if you don't have a bug report no worries just skip the number)
-* Develop on issue branch. [Time passes, the main Diaspora repository accumulates new commits]
+* Develop on issue branch. [Time passes, the main ikandou repository accumulates new commits]
 * Commit changes to issue branch. ($ git add . ; git commit -m 'commit message')
 * Fetch upstream ($ git fetch upstream)
 * Update local master ($ git checkout master; git pull upstream master)
