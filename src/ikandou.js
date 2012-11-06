@@ -33,15 +33,14 @@ function init(){
     var WRAPPER_TMPL =  '<div class="gray_ad">'+
 	'<h2><a href="http://ikandou.com/" target="_blank">爱看豆电子书下载››</a></h2>' +
 	'<ul class="bs"><li class="msg" style="display:none;color:#333;">' +
-	'万卷书上还没有这本书,你可以考虑<a target="_blank" href="http://ikandou.com/book/add">上传一本</a>,'+
-	'<br>或者<a href="http://ikandou.com/book">去看看</a>其它有趣的电子书</li></ul>'+
+	'万卷书上还没有这本书,你可以考虑<a target="_blank" href="http://ikandou.com/book/upload">上传一本</a>,'+
+	'<br>或者<a href="http://ikandou.com">去看看</a>其它有趣的电子书</li></ul>'+
 	'</div>',
         ITEM_TMPL_RELATED = '<li><a target="_blank" href="{{=url }}" title="{{=author }}">{{=title }}</a><b class="pl" style="padding-left:5px;">{{=rating }}星</b><span style="padding-left:5px;color:green;">{{=related }}</span></li>';	
 
     window.processRelatedResult = function (results) {
 	var element = $(WRAPPER_TMPL);
 	var cnt=0;
-	console.log(results);
 	list = element.find("ul");
 	$.each(results, function (idx, value) {
 		var item=$(ITEM_TMPL_RELATED.replace("{{=url }}",value.url)
@@ -67,7 +66,6 @@ function init(){
 	});
     var subjectId = document.location.href.match(/(\d+)/)[1];
     var matchUrl = "http://ikandou.com/api/related?callback=processRelatedResult&version=1.1&bookid=" + subjectId + "&tags=" + ptags;
-    console.log(matchUrl);
     $.getScript(matchUrl);
 }
 
