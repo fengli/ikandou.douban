@@ -1,4 +1,4 @@
-// ==UserScript==
+﻿// ==UserScript==
 // @name          万卷书|爱看豆
 // @namespace     com.douban.book
 // @version	  1.1
@@ -31,7 +31,7 @@
 
 function init(){
     var WRAPPER_TMPL =  '<div class="gray_ad">'+
-	'<h2><a href="http://ikandou.com/book" target="_blank">爱看豆电子书下载››</a></h2>' +
+	'<h2><a href="http://ikandou.com/" target="_blank">爱看豆电子书下载››</a></h2>' +
 	'<ul class="bs"><li class="msg" style="display:none;color:#333;">' +
 	'万卷书上还没有这本书,你可以考虑<a target="_blank" href="http://ikandou.com/book/add">上传一本</a>,'+
 	'<br>或者<a href="http://ikandou.com/book">去看看</a>其它有趣的电子书</li></ul>'+
